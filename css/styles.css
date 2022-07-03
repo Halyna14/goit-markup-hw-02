@@ -45,17 +45,27 @@ body {
 .hero-btn {
   color: var(--light-bg-cl);
   background-color: var(--accent-txt-cl);
+  font-family: inherit;
+  font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+
+}
+
+.btn{
+  font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.03em;
+    
 }
 .btn-link:hover,
 .btn-link:focus {
   color: var(--light-bg-cl);
-  background-color: var(--accent-txt-cl);
-  font-family: inherit;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(26 / 16);
-  letter-spacing: 0.03em;
+  background-color: var(--accent-txt-cl); 
 }
 .btn-link-current {
   color: var(--light-bg-cl);
@@ -85,9 +95,7 @@ body {
 .header-link:focus {
   color: var(--accent-txt-cl);
 }
-.header-link-current {
-  color: var(--accent-txt-cl);
-}
+
 
 .title {
   text-transform: uppercase;
@@ -137,8 +145,6 @@ body {
 }
 
 .team-text {
-  font-weight: 400;
-  font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
   color: var(--phone-cl);
@@ -156,14 +162,17 @@ body {
 }
 
 .subtitle-work {
-  font-weight: 400;
-  font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--phone-cl);
 }
 /* logo */
-
+.logo{
+  font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+}
 .logo-accent {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -179,12 +188,13 @@ body {
 }
 
 .address {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--light-bg-cl);
-  font-style: italic;
+  
 }
 
 .contacts-link {
